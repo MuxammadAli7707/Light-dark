@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light-Dark</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header id="header" class="site-header">
+    <div class="container">
+      <div class="row middle between">
+        <h2 class="logo-heading">Where in the world?</h2>
+        <button class="light-dark" id="modeBtn">Dark Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="site-main">
+    <div class="container">
+      <div class="row middle between">
+        <div class="input-search row middle">
+          <i class='bx bx-search-alt-2'></i>
+          <input type="text" name="search" placeholder="Search for a country…">
+        </div>
+        <div class="select row middle">
+          <select class="select-list" name="select" id="select">
+            <option value="">Filter by Region</option>
+            <option value="">Africa</option>
+            <option value="">America</option>
+            <option value="">Asia</option>
+            <option value="">Europe</option>
+            <option value="">Oceania</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="country-box">
+    <div class="container">
+      <div class="site-country">
+        <ul class="country-list row between">
+          <li class="list-item">
+            <a href="about.html" target="_blank">
+              <img src="imgs/germany.png" alt="germany" width="264" height="160">
+            </a>
+            <div class="title-box">
+              <h4 class="list-head">Germany</h4>
+              <p class="list-text">Population:
+                <span class="list-add">81,770,900</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Europe</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Berlin</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/america.png" alt="america" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">United States of America</h4>
+              <p class="list-text">Population:
+                <span class="list-add">323,947,000</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Americas</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Washington, D.C</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/brasil.png" alt="brasil" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Brasil</h4>
+              <p class="list-text">Population:
+                <span class="list-add">206,135,893</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Americas</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Brasil</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/icland.png" alt="icland" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Iceland</h4>
+              <p class="list-text">Population:
+                <span class="list-add">334,300</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Europe</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Reykjavik</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/afgan.png" alt="afgan" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Afghanistan</h4>
+              <p class="list-text">Population:
+                <span class="list-add">27,675,145</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Asia</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Kabul</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/aland.png" alt="aland" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Åland Islands</h4>
+              <p class="list-text">Population:
+                <span class="list-add">28,875</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Europe</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Mariehamn</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/albania.png" alt="albania" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Albania</h4>
+              <p class="list-text">Population:
+                <span class="list-add">2,886,026</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Europe</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Tirana</span>
+              </p>
+            </div>
+          </li>
+          <li class="list-item">
+            <img src="imgs/algeria.png" alt="albania" width="264" height="160">
+            <div class="title-box">
+              <h4 class="list-head">Algeria</h4>
+              <p class="list-text">Population:
+                <span class="list-add">40,400,000</span>
+              </p>
+              <p class="list-text">Region:
+                <span class="list-add">Africa</span>
+              </p>
+              <p class="list-text">Capital:
+                <span class="list-add">Algiers</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
