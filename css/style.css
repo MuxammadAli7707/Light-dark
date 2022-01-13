@@ -112,6 +112,9 @@ input[type="text"]:focus {
   color: var(--text-color);
   border: transparent;
 }
+img {
+  border-radius: 5px;
+}
 
 .country-list {
   list-style-type: none;
